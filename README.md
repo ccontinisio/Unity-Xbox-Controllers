@@ -7,8 +7,8 @@ Configuring many Xbox pads can be a hassle if you have to do it in the InputMana
   
 The project includes:
 * The InputManager already configured with 40 axes, 10 per each controller
-* An InputManager.cs class with everything you need to poll the 4 controllers (GetAxis, GetButton, GetButtonDown and GetButtonUp)
-* A JoypadMapping.cs class with mapping for buttons and axes
+* An InputManager.cs class to poll the 4 controllers (GetAxis, GetButton, GetButtonDown and GetButtonUp)
+* A JoypadMapping.cs class with user-friendly enums for buttons and axes
 * Platform-dependent compilation for Win, Mac and Linux
 * An InputPrefsGenerator.cs helper Editor script in case you want to generate another InputManager.asset
 
