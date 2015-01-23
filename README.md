@@ -6,9 +6,10 @@ Pre-configured Unity project for using 4 Xbox pads on any desktop platform.
 Configuring many Xbox pads can be a hassle if you have to do it in the InputManager, and most of the time you're working on Windows but you'd like people who try your game after a game jam to be able to play it on Mac or Linux. This project tries to create a shortcut to solve these problems, while still not imposing any coding style on the programmer.  
   
 The project includes:
-* The InputManager already configured with 40 axes configured as 10 per each controller.
-* An InputManager.cs class with everything you need to poll the 4 controllers
-* A JoypadMapping.cs class with mapping for buttons and axes, and platform-dependent compilation for Win, Mac and Linux
+* The InputManager already configured with 40 axes, 10 per each controller
+* An InputManager.cs class with everything you need to poll the 4 controllers (GetAxis, GetButton, GetButtonDown and GetButtonUp)
+* A JoypadMapping.cs class with mapping for buttons and axes
+* Platform-dependent compilation for Win, Mac and Linux
 * An InputPrefsGenerator.cs helper Editor script in case you want to generate another InputManager.asset
 
 I tried to keep the code is as slim as possible, so you can use the input I prepared together with your preferred coding style. More in-depth instructions are inside the InputManager class.  
